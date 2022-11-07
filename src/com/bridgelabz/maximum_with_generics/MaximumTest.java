@@ -26,7 +26,10 @@ public class MaximumTest {
                 max = t;
             }
         }
-        System.out.println("Maximum Number is:" + max);
+        printMax(max);
+    }
+    private static <T> void printMax(T max) {
+        System.out.println("Maximum Number is: " + max);
     }
 
 }
